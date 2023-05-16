@@ -1,0 +1,142 @@
+* {
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+    /* main container     */
+}
+
+.container-main {
+    margin: 0 auto;
+
+}
+
+/* narbar section  */
+.navbar {
+    border: 3px solid rgb(204, 204, 204);
+    background-color: rgb(204, 204, 204);
+    width: 760px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.title {
+    font-size: 38px;
+    margin-left: 25px;
+}
+
+.search-bar {
+
+    padding: 5px;
+    border: solid 3px black;
+    font-size: 15px;
+    color: lightgrey;
+    width: 250px;
+    background-color: azure;
+}
+
+.login {
+    color: white;
+    background-color: rgb(42, 120, 228);
+    border: solid 2px black;
+    width: 80px;
+    height: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+    margin: 20px;
+}
+
+.container2 {
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+/* left side column top card */
+.top-box {
+    width: 450px;
+    margin: 25px 0px 0px 0px;
+    border: solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.ninja1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.ninja {
+    font-size: 30px;
+}
+
+.noun {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.plural {
+    font-size: 13px;
+}
+
+span {
+    font-style: italic;
+}
+
+.like-button {
+    font-weight: 700;
+    background-color: rgb(255, 217, 102);
+    border: solid 2px black;
+    width: 90px;
+    height: 35px;
+    box-shadow: 2px 2px 2px 2px;
+    margin-top: 25px;
+}
+
+a {
+    text-decoration: underline;
+    color: rgb(39, 99, 157);
+}
+
+.definition {
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+/* left side colmun bottom card */
+.bottom-box {
+    width: 450px;
+    margin: 25px 25px 25px 0px;
+    border: solid 3px black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* right side column card */
+.right-box {
+    margin: 25px 0px;
+    border: 3px solid black;
+
+
+}
+
+.defined-by-you {
+    font-size: 30px;
+    margin: 20px 30px;
+
+}
+
+.definition-button {
+    font-weight: 500;
+    font-size: 20px;
+    width: 225px;
+    height: 35px;
+    background-color: rgb(146, 196, 125);
+    box-shadow: 2px 2px 2px 2px;
+    margin: 10px 25px 20px 25px;
+
+}
